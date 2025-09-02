@@ -197,6 +197,7 @@ In each Transformer layer, the input embeddings pass through attention and then 
 [Embeddings] -> [Key Vectors, Query Vectors, Value Vectors] -> [Scaled Dot Product] -> [Masking] -> [Key-Query product x Value Vectors]
 
 **Multi-Headed Attention**
+
 [Embeddings] -> [Attention Heads] -> [Concatenation] -> [Linear Layer] 
 
 **Transformer Layer/Block**  
