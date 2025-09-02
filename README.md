@@ -1,4 +1,4 @@
-# ML_Educational  
+# ML_Educational_Projects  
 
 Beginner-friendly implementations of classic deep learning models with explanations.  
 
