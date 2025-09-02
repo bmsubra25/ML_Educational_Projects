@@ -196,7 +196,10 @@ In each Transformer layer, the input embeddings pass through attention and then 
 
 [Embeddings] -> [Key Vectors, Query Vectors, Value Vectors] -> [Scaled Dot Product] -> [Masking] -> [Key-Query product x Value Vectors]
 
-**Multi-Headed Attention Block**  
+**Multi-Headed Attention**
+[Embeddings] -> [Attention Heads] -> [Concatenation] -> [Linear Layer] 
+
+**Transformer Layer/Block**  
 
 [Embeddings] -> [Layer Norm] -> [Multi-Headed Attention] -> [Layer Dropout] -> [Adding Input Embeddings] + [Layer Norm] -> [MLP Layers] -> [Layer Dropout] -> [Adding Input Embeddings]
 
