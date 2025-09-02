@@ -18,6 +18,7 @@ The following assumes you have some knowledge of:
 - Matrix–vector products
 - A basic idea of Machine Learning
 
+**(Note: The following sections include some relatively dense math. The code examples in this directory are meant to ground those ideas. You may find it helpful to open one of the notebooks in this directory in Google Colab or Jupyter and read it side by side with this document.)**
 
 ![Single-Layer Neural Network (blank)](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Single-Layer_Neural_Network-Vector-Blank.svg/1134px-Single-Layer_Neural_Network-Vector-Blank.svg.png)
 *Image by [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Single-Layer_Neural_Network-Vector-Blank.svg), used under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
